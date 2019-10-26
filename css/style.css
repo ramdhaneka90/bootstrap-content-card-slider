@@ -10,6 +10,7 @@ html, body {
 }
 
 .wrapper-card .header .title,
+.wrapper-card .card .card-body,
 .wrapper-card .header .description {
 	margin: 0px;
 }
@@ -17,4 +18,39 @@ html, body {
 .wrapper-card .header .title {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.wrapper-card .card .card-logo {
+	height: 100px;
+}
+
+.wrapper-card .card .card-body {
+	padding-top: 0px;
+}
+
+.card-box {
+	float: left;
+	display: inline-flex;
+}
+
+.card-slider {
+	flex-wrap: nowrap;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.card-slider-content {
+	overflow: hidden;
+}
+
+.wrapper-btn-right {
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	position: absolute;
+	justify-content: center;
+}
+
+.wrapper-btn-right .btn {
+	
 }
